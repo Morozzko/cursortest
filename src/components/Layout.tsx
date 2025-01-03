@@ -1,10 +1,7 @@
-import { Outlet } from 'react-router-dom'
-import { Container } from '@mui/material'
+import {Outlet} from 'react-router-dom'
 
 export const Layout = () => {
-  return (
-    <Container maxWidth="md">
-      <Outlet />
-    </Container>
-  )
-} 
+    return (
+        <Outlet/>
+    )
+}
