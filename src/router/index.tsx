@@ -13,4 +13,14 @@ export const router = createHashRouter([
       },
     ],
   },
-]) 
+  {
+    path: '/cursortest/',
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: <App />,
+      },
+    ],
+  },
+])
